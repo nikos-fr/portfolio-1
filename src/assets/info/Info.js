@@ -43,21 +43,13 @@ export const info = {
   ],
   bio: "g",
   skills: {
-    tools: ['Figma', 'Adobe Illustrator', 'Adobe XD', 'Photoshop', 'Webflow'],
+    tools: ['Figma', 'Visual Studio code', 'Adobe XD', 'Photoshop', 'Webflow'],
     others: ['Basic HTML/CSS', 'User Reasearch', 'Usability Testing']
   },
   hobbies: [
     {
-      label: 'Photography',
-      emoji: '📷',
-    },
-    {
       label: 'Video games',
       emoji: '🎮',
-    },
-    {
-      label: 'Guitar',
-      emoji: '🎸',
     },
     {
       label: 'Movies',
