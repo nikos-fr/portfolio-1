@@ -12,7 +12,7 @@ const links = [
     active: 'home',
   },
   {
-    name: 'About Me',
+    name: 'A propos de moi',
     to: '/about',
     active: 'about',
   },

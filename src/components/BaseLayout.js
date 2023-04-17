@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
 import { logGa } from '../utils/log';
+import AboutPerso from './aboutperso/AboutPerso';
 
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
@@ -56,7 +57,7 @@ export default function BaseLayout() {
         <Grid item flexGrow={1}>
           <Routes>
             <Route exact path={'/'} element={<Home darkMode={darkMode} />} />
-            <Route exact path={'/about'} element={<About />} />
+            <Route exact path={'/about'} element={<AboutPerso />} />
             <Route exact path={'/portfolio'} element={<Portfolio />} />
           </Routes>
         </Grid>
@@ -70,15 +71,7 @@ export default function BaseLayout() {
             sx={{ opacity: 0.7 }}
             width={'100%'}
           >
-            <p>
-              template created with &hearts; by{' '}
-              <a href={'https://paytonpierce.dev'}>Payton Pierce</a>
-            </p>
-            <p>
-              enhence implemented with &hearts; by <a href={'https://andy8647.com'}>Andy Luo </a>,
-              redesigned with &hearts; by <a href={'https://ingrid0126.com'}>nicolas lousada</a>
-            </p>
-            <p>&copy; 2023</p>
+
           </Box>
         </Grid>
       </Grid>

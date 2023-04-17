@@ -1,4 +1,5 @@
 import self from '../img/self.png';
+import kasaimg from '../img/kasaimg.png'
 import { colors } from '../colors/mainGradient';
 
 export const info = {
@@ -20,7 +21,7 @@ export const info = {
       text: 'Développeur Web',
     },
     {
-      emoji: '📧📨📩',
+      emoji: '📧',
       text: 'nicolousa.dev@gmail.com',
     },
   ],
@@ -31,7 +32,7 @@ export const info = {
       label: 'resume',
     },
     {
-      link: 'https://github.com/ingrid0126fx',
+      link: 'https://github.com/nikos-fr',
       icon: 'fa fa-github',
       label: 'github',
     },
@@ -43,8 +44,7 @@ export const info = {
   ],
   bio: "g",
   skills: {
-    tools: ['Figma', 'Visual Studio code', 'Adobe XD', 'Photoshop', 'Webflow'],
-    others: ['Basic HTML/CSS', 'User Reasearch', 'Usability Testing']
+    tools: ['Figma', 'Visual Studio code','React','JavaScript', 'github', 'Sass','Node','Express','Mango db', 'JSON','Basic HTML/CSS'],
   },
   hobbies: [
     {
@@ -68,10 +68,28 @@ export const info = {
     // This is where your portfolio projects will be detailed
     //   for the null ones, the button will not show up
     {
-      title: 'Portfolio redesign',
-      live: 'https://ingrid0126.com/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/ingrid0126fx/ingrid-portfolio', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: 'https://ingrid0126.com/website.jpg',
-    }
+      title: 'Projet Kasa',
+      live: 'https://kasa-delta-three.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/nikos-fr/portfolio-1', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: kasaimg,
+    },
+    {
+      title: 'Projet Kasa',
+      live: 'https://kasa-delta-three.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/nikos-fr/portfolio-1', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: kasaimg,
+    },
+    {
+      title: 'Projet Kasa',
+      live: 'https://kasa-delta-three.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/nikos-fr/portfolio-1', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: kasaimg,
+    },
+    {
+      title: 'Projet Kasa',
+      live: 'https://kasa-delta-three.vercel.app/', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+      source: 'https://github.com/nikos-fr/portfolio-1', // this should be a link to the **repository** of the project, where the code is hosted.
+      image: kasaimg,
+    },
   ],
 };
